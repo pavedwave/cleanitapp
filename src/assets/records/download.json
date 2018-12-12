@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "name": "James Peters",
+    "username": "JP",
+    "email": "12 bags of trash",
+    "address": {
+      "street": "Street One",
+      "suite": "Apt. 101",
+      "city": "Seattle",
+      "zipcode": "98109",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "206 306 7769",
+    "website": "Street Rat",
+    "company": {
+      "name": "Clean Streets",
+      "catchPhrase": "A greener world",
+      "bs": "blah blah blah"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Doc Severinsen",
+    "username": "The Doc",
+    "email": "56 bags of trash",
+    "address": {
+      "street": "Main Street",
+      "suite": "Suite 999",
+      "city": "Los Angeles",
+      "zipcode": "93540",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "Diligent Chipmunk",
+    "company": {
+      "name": "Tonight Show",
+      "catchPhrase": "Big Band",
+      "bs": "The man the myth the legend"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clifford Brown",
+    "username": "Brownie",
+    "email": "109 bags of trash",
+    "address": {
+      "street": "Faraway Street",
+      "suite": "Suite 200",
+      "city": "SomewhereUSA",
+      "zipcode": "34523",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "777-666-5555",
+    "website": "Busy Beaver",
+    "company": {
+      "name": "Blue Note",
+      "catchPhrase": "Phenomenon",
+      "bs": "testing 123"
+    }
+  }
+]

@@ -1,0 +1,33 @@
+<h1>Tasks</h1>
+
+<p>Start a Clean Up Today!</p>
+
+<img src='./assets/images/beforeandafter1.jpg'  height="300" alt="before and after">
+
+<!-- <div>
+  <mat-card fxFlex>
+    <mat-card-header>
+      <div mat-card-avatar></div>
+      <mat-card-title>
+        <h3>{{image.name}}</h3>
+      </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src='./assets/images/beforeandafter1.jpg'  height="300" alt={{image.name}}>
+    <mat-card-content>
+      <p>{{image.description}}
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div> -->
+
+<h3>task 1 - pic of map, address, user</h3>
+<h3>task 2 - pic of map, address, user</h3>
+<h3>task 3 - pic of map, address, user</h3>
+
+<ul>
+  <li *ngFor="let task of tasks$">
+    <a routerLink="">{{ task.title }}</a>
+
+    <p>{{ task.body }}</p>
+  </li>
+</ul>
