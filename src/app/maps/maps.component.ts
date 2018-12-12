@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ViewChild } from '@angular/core';
-//import { } from 'googlemaps';
+import { } from 'googlemaps';
 // commenting out to fix:
 //ERROR in src/app/maps/maps.component.ts(3,17): error TS2306: File 'c:/nucamp/clean-it-app/clean-it-app/node_modules/@types/googlemaps/index.d.ts' is not a module.
 

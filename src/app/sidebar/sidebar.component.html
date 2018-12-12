@@ -1,0 +1,29 @@
+<nav>
+  <ul>
+    <li>
+        <a routerLink="" [class.activated]="currentUrl == '/home'">
+          <i class="material-icons">home</i>
+        </a>
+      </li>
+    <li>
+      <a routerLink="" [class.activated]="currentUrl == '/users'">
+        <i class="material-icons">face</i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="posts" [class.activated]="currentUrl == '/posts'">
+        <i class="material-icons">delete</i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="posts" [class.activated]="currentUrl == '/photos'">
+        <i class="material-icons">add_a_photo</i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="posts" [class.activated]="currentUrl == '/maps'">
+        <i class="material-icons">navigation</i>
+      </a>
+    </li>
+  </ul>
+</nav>

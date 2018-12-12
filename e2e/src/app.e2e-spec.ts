@@ -9,6 +9,10 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
+<<<<<<< HEAD
     expect(page.getParagraphText()).toEqual('Welcome to clean-it-app!');
+=======
+    expect(page.getParagraphText()).toEqual('Welcome to designcourse!');
+>>>>>>> 81bbca514f23760e9ef004090e899127ca0bfd41
   });
 });

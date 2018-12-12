@@ -17,9 +17,9 @@ export class StatsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.data.getUsers(this.user$).subscribe(
+/*     this.data.getUsers(this.user$).subscribe(
       data => this.user$ = data 
-    );
+    ); */
   }
 
 }
